@@ -26,7 +26,7 @@ const Input = ({ setQuery, setUnits }) => {
           value={city}
           type="text"
           placeholder="Search City Name"
-          className="text-gray-500 text-base sm:text-lg font-light p-2 w-full shadow-xl capitalize focus:outline-none placeholder:lowercase w-full sm:w-3/4"
+          className="text-gray-500 text-base sm:text-lg font-light p-2 w-full shadow-xl capitalize focus:outline-none placeholder:lowercase sm:w-3/4"
           onChange={(e) => setCity(e.target.value)}
         />
         <div className="flex flex-row space-x-4">
